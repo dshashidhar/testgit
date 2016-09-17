@@ -1,0 +1,35 @@
+{
+	"id": "cb8c416b-15f9-dc34-9f9a-03f335e96d38",
+	"name": "Onboarding-Interop-testing",
+	"description": "",
+	"order": [
+		"8326fad5-2404-e1e7-312f-772135519862"
+	],
+	"folders": [],
+	"timestamp": 1457543474599,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "8326fad5-2404-e1e7-312f-772135519862",
+			"headers": "api-cache-key: c672b8d1ef56ed28ab87c3622c5114069bdd3ad7b8f9737498d0c01ecef0967a\napi-country: za\napi-lang: en\napi-message-id: f47ac10b-58cc-4372-a567-0e02b2c3d479\napi-message-timestamp: 2015-08-18T06:36:40+00:00\napi-organisation: ddb\napi-related-id: f47ac10b-58cc-4372-a567-0e02b2c3d479\napi-transaction-id: f47ac10b-58cc-4372-a567-0e02b2c3d479\napi-transaction-timestamp: 2015-08-18T06:36:40+00:00\nContent-Type: application/json\n",
+			"url": "http://127.0.0.1:8082/onboarding-api/1.0/ddb/register",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1457543897779,
+			"name": "POST Onboarding",
+			"description": "",
+			"collectionId": "cb8c416b-15f9-dc34-9f9a-03f335e96d38",
+			"responses": [],
+			"rawModeData": "{\r\n    \"emailId\":\"kunal45@gmail.com\",\r\n    \"lastName\": \"jeff\",\r\n    \"firstName\": \"Sue\",\r\n    \"middleName\":  \"asa\",\r\n    \"suffixName\": \"asas\",\r\n    \"prefixName\": \"sasa\",\r\n    \"ssNumber\":\"789456123\",\r\n    \"driverLicense\": \"X123\",\r\n    \"driverLicenseExpiryDate\": \"02-02-2016 00:00:00 UTC\",\r\n    \"birthDate\":  \"02-02-2016 00:00:00 UTC\",\r\n    \"gender\": \"Male\",\r\n    \"mothersMaidenName\":\"test\",\r\n    \"isPrimaryCustomer\": true,\r\n    \"deceasedDate\": \"02-02-2016 00:00:00 UTC\",\r\n    \"partyStatus\": \"ACTIVE\",\r\n    \"recordType\": \"INV\",\r\n    \"methodOfContact\": \"TEXT\",\r\n    \"phoneMobile\":  \"3333334321\",\r\n    \"phoneHome\":  \"1121212121\",\r\n    \"addressLine1\":  \"123 Main street\",\r\n    \"addressLine2\":  \"Suite# 123\",\r\n    \"city\":  \"Chicago\",\r\n    \"stateCode\":\"IL\",\r\n    \"stateDesc\":\"Illinois\",\r\n    \"zipCode\":  \"90000\",\r\n    \"createdBy\": \"user1\",\r\n    \"countryDialingCode\":\"91\",\r\n    \"kycStatus\": \"active\"\r\n}\r\n"
+		}
+	]
+}
